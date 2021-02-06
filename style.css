@@ -75,6 +75,30 @@ body {
     
 }
 
+.join {
+	background-color:#fafafa;
+	border-radius:31px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	
+	font-size:20px;
+	padding:13px 37px;
+	text-decoration:none;
+	margin-top: 5vh;
+    transition: 0.2s
+    
+}
+.join:hover {
+	background-color:#000000;
+    color: white;
+}
+.join:active {
+	position:relative;
+	top:1px;
+}
+
 section {
     scroll-snap-align: center;
 }
@@ -235,5 +259,24 @@ p{
         height: 45vh;
     }
     
+    .image-1 {
+        background: url("https://upb.ro/wp-content/uploads/2017/11/facultatea_de_automatica_02.png")
+        no-repeat fixed 25%;
+        background-position: center;
+    }
+    
+    .image 2 {
+        background: url("https://trainingindustry.com/content/uploads/2018/05/Employee-Experience-and-Employee-Engagement-5.17.18.jpg")
+        no-repeat fixed 25%;
+    }
+    
+    .join {
+        display: flex;
+        width: 30%;
+        height:50%;
+        font-size: 100%;
+        margin-left: 30vw;
+        
+    }
     
 }
